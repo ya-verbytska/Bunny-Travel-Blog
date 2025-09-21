@@ -1,182 +1,295 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,250..1000;1,250..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./stylesheet.css" rel="stylesheet" />
+
     <title>Hoppy Travels</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#AboutMe">About me</a></li>
-          <li><a href="#Countries">Countries</a></li>
-          <li><a href="#Gallery">Gallery</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-        </ul>
+      <nav class="navigation">
+        <div class="navigation-inner">
+          <ul>
+            <li><a href="#AboutMe">About me</a></li>
+            <li><a href="#Countries">Countries</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+          </ul>
+        </div>
       </nav>
-      <h1>Around the World with Bunnies</h1>
     </header>
-    <img src="images/Banner-01.png" alt="Banner with bunnies" />
+    <div id="banner">
+      <div class="content">
+        <h1>Around the World with Bunnies</h1>
+
+        <div class="button-banner">
+          <a href="#Countries">Our adventures</a>
+        </div>
+      </div>
+    </div>
     <main>
       <section id="AboutMe">
-        <h2>About me</h2>
-        <p>
-          Hi, I’m Yana, the creator behind this playful travel blog. Travels have always been my
-          dream, and through this blog, I combine my love for exploring new places with my passion
-          for design and storytelling.
-        </p>
-        <p>
-          On my travels, I’m never alone. There’s always a pair of long ears peeking out of my
-          backpack — yes, you guessed it — my cute handmade bunnies. Together, we visit beautiful
-          countries, discover fun facts, and taste local dishes. These little adventures always
-          bring me so much joy and inspiration.
-        </p>
-        <p>
-          The bunnies are perfect travel companions — always ready for new experiences and tasty
-          treats!
-        </p>
-        <h3>How did it start?</h3>
-        <p>
-          But why bunnies, and how did this idea begin? The answer is simple: I love bunnies, and my
-          mom loves crocheting.
-        </p>
-        <p>
-          During the quiet days of the pandemic, crocheting became a calming and inspiring hobby for
-          her. At first, she made simple, funny bunny toys, and I started taking cute photos of them
-          everywhere.
-        </p>
-        <p>
-          Then, one day, she created the first bunny couple in Ukrainian style. I took them on
-          vacation and snapped some photos to show my mom that the bunnies were also having a good
-          time with me. That was the <strong>beginning of our journey.</strong>
-        </p>
-        <h3>How is it going now?</h3>
-        <p>
-          The idea of making bunnies in different styles inspired by different countries was so
-          adorable — and maybe a little crazy, but nothing could stop my mom’s passion for
-          crocheting.
-        </p>
-        <p>
-          Over the past two years, our <a href="#Gallery"><strong>bunny family</strong></a> has
-          grown to include German, Greek, Spanish, Italian, Swiss, Danish, and French couples. Now,
-          wherever I travel, I take these little companions along to capture special memories — and
-          to share them with my mom… and with you!
-        </p>
+        <div class="about-me">
+          <div class="about-me-inner">
+            <h2>Hi, I’m Yana!</h2>
+            <p>
+              Travels have always been my dream, and through this blog, I combine my love for
+              exploring new places with my passion for design and storytelling.
+            </p>
+            <p>
+              On my travels, I’m never alone. There’s always a pair of long ears peeking out of my
+              backpack — yes, you guessed it — my cute handmade bunnies. Together, we visit
+              beautiful countries, discover fun facts, and taste local dishes. These little
+              adventures always bring me so much joy and inspiration.
+            </p>
+            <p>
+              The bunnies are perfect travel companions — always ready for new experiences and tasty
+              treats!
+            </p>
+          </div>
+          <div class="about-me-photo">
+            <img src="images/Me_and_Bunnies.png" width="389" alt="Portrait of bunnies and me" />
+          </div>
+        </div>
+
+        <div class="section-background">
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>How did it start?</h2>
+              <p>
+                But why bunnies, and how did this idea begin? The answer is simple: I love bunnies,
+                and my mom loves crocheting.
+              </p>
+              <p>
+                During the quiet days of the pandemic, crocheting became a calming and inspiring
+                hobby for her. At first, she made simple, funny bunny toys, and I started taking
+                cute photos of them everywhere.
+              </p>
+              <p>
+                Then, one day, she created the first bunny couple in Ukrainian style. I took them on
+                vacation and snapped some photos to show my mom that the bunnies were also having a
+                good time with me. That was the
+                <strong>beginning of our journey.</strong>
+              </p>
+            </div>
+
+            <div class="section-inner">
+              <h2>How is it going now?</h2>
+              <p>
+                The idea of making bunnies in different styles inspired by different countries was
+                so adorable — and maybe a little crazy, but nothing could stop my mom’s passion for
+                crocheting.
+              </p>
+              <p>
+                Over the past two years, our bunny family has grown to include German, Greek,
+                Spanish, Italian, Swiss, Danish, and French couples. Now, wherever I travel, I take
+                these little companions along to capture special memories — and to share them with
+                my mom… and with you!
+              </p>
+              <a class="button" href="#Gallery">Our bunny family</a>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="Countries">
         <div>
-          <h2>Countries</h2>
-          <p>
-            The bunnies and I have already visited more than
-            <strong>10 countries</strong>. Each trip is a new story filled with laughter, curious
-            discoveries, and, of course, delicious food.
-          </p>
-          <p>Every place leaves a special memory — and the bunnies love to collect them all!</p>
-          <h3>Our favorite countries and adventures</h3>
-          <p>
-            Each country gave us new friends, fun stories, and tasty memories — from cheesy fondue
-            to sweet gelato. These are our favorite adventures, and we can’t wait to share them with
-            you!
-          </p>
-          <h4>Switzerland</h4>
-          <p>
-            Grüezi! We hopped into the snowy Alps and met the gentle St. Bernard dogs at Barryland.
-            Of course, we also tried our favorite Swiss treat — fondue!
-            <br />
-            <a href="./Switzerland.html">Read more</a>
-          </p>
-          <h4>France</h4>
-          <p>
-            Bonjour! We explored romantic streets of Paris, tasted sweet crêpes, and even posed near
-            the Eiffel Tower like true French bunnies.
-            <br />
-            <a href="">Read more</a>
-          </p>
-          <h4>Denmark</h4>
-          <p>
-            Hej! We hopped through colorful Nyhavn, met the Little Mermaid, and enjoyed the cozy
-            Danish “hygge” vibes — perfect for bunnies!
-            <br />
-            <a href="">Read more</a>
-          </p>
-          <h4>Spain</h4>
-          <p>
-            ¡Hola! Sunny days, sandy beaches, and yummy paella — Spain is our happy place for
-            hopping and tasting delicious food!
-            <br />
-            <a href="">Read more</a>
-          </p>
-          <h4>Italy</h4>
-          <p>
-            Ciao! We hopped around stylish Milan, admired the stunning Duomo, and, of course,
-            enjoyed lots of pizza and creamy gelato!
-            <br />
-            <a href="">Read more</a>
-          </p>
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>Our favorite countries and adventures</h2>
+              <p>
+                The bunnies and I have already visited more than
+                <strong>10 countries</strong>. Each trip is a new story filled with laughter,
+                curious discoveries, and, of course, delicious food.
+              </p>
+              <p>Every place leaves a special memory — and the bunnies love to collect them all!</p>
+
+              <p>
+                Each country gave us new friends, fun stories, and tasty memories — from cheesy
+                fondue to sweet gelato. These are our favorite adventures, and we can’t wait to
+                share them with you!
+              </p>
+            </div>
+          </div>
+          <div class="countries-block">
+            <div class="country-card">
+              <img src="images/Martigny.png" alt="Bunnies in Switzerland" width="300" />
+              <div>
+                <p>
+                  <strong>Grüezi! </strong>
+                  <br />
+                  <br />
+                  We hopped into the snowy Alps and met the gentle St. Bernard dogs at Barryland. We
+                  also tried our favorite Swiss treat — fondue!
+                </p>
+                <a href="./Switzerland.html">Read more</a>
+              </div>
+            </div>
+            <div class="country-card">
+              <img src="images/Paris.png" alt="Bunnies in Paris" width="300" />
+
+              <p>
+                <strong>Bonjour!</strong>
+                <br />
+                <br />We explored romantic streets of Paris, tasted sweet crêpes, and even posed
+                near the Eiffel Tower like true French bunnies.
+              </p>
+              <a href="">Read more</a>
+            </div>
+            <div class="country-card">
+              <img src="images/Copenhagen.png" alt="Bunnies in Copenhagen" width="300" />
+
+              <p>
+                <strong>Hej!</strong>
+                <br />
+                <br />
+                We hopped through colorful Nyhavn, met the Little Mermaid, and enjoyed the cozy
+                Danish “hygge” vibes — perfect for bunnies!
+              </p>
+              <a href="">Read more</a>
+            </div>
+          </div>
+          <div class="countries-block">
+            <div class="country-card">
+              <img src="images/Palma.png" alt="Bunnies in Palma" width="300" />
+
+              <p>
+                <strong>¡Hola!</strong>
+                <br />
+                <br />
+                Sunny days, sandy beaches, and yummy paella — Spain is our happy place for hopping
+                and tasting delicious food!
+              </p>
+              <a href="">Read more</a>
+            </div>
+            <div class="country-card">
+              <img src="images/Como.png" alt="Bunnies on Como Lace" width="300" />
+
+              <p>
+                <strong>Ciao!</strong>
+                <br />
+                <br />
+                We hopped around stylish Milan, admired the stunning Duomo, and, of course, enjoyed
+                lots of pizza and creamy gelato!
+              </p>
+              <a href="">Read more</a>
+            </div>
+            <div class="country-card">
+              <img src="images/Berlin.png" alt="Bunnies IN Berlin" width="300" />
+              <p>
+                <strong>Hallo!</strong>
+                <br />
+                <br />
+                We hopped through Berlin, explored the Brandenburg Gate, and nibbled on a yummy
+                pretzel while enjoying the city’s lively vibes!
+              </p>
+              <a href="">Read more</a>
+            </div>
+          </div>
         </div>
+
         <!-- todo: Links to each page-->
       </section>
-      <section id="Gallery">
+
+      <section class="section-background" id="Gallery">
         <div>
-          <h2>Gallery</h2>
-          <h3>Hoppy Moments Around the World</h3>
-          <p>
-            Our bunnies love posing for photos wherever they travel! From snowy mountain peaks to
-            sunny beaches and colorful city streets — each picture is a tiny memory of their big
-            adventures.
-          </p>
-          <figure>
-            <img src="images/Switzerland-01.jpg" width="200" alt="Bunnies in Switzerland" />
-            <figcaption>Bunnies in Switzerland</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Italy-01.jpg" width="200" alt="Bunnies in Italy" />
-            <figcaption>Bunnies in Italy</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Germany-01.jpg" width="200" alt="Bunnies in Germany" />
-            <figcaption>Bunnies in Germany</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Czech Republic-01.jpg" width="200" alt="Bunnies in Czech Republic" />
-            <figcaption>Bunnies in Czech Republic</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Denmark-01.jpg" width="200" alt="Bunnies in Denmark" />
-            <figcaption>Bunnies in Denmark</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Spain-01.jpg" width="200" alt="Bunnies in Spain" />
-            <figcaption>Bunnies in Spain</figcaption>
-          </figure>
-          <figure>
-            <img src="images/France-01.jpg" width="200" alt="Bunnies in France" />
-            <figcaption>Bunnies in France</figcaption>
-          </figure>
-          <figure>
-            <img src="images/Greece-01.jpg" width="200" alt="Bunnies in Greece" />
-            <figcaption>Bunnies in Greece</figcaption>
-          </figure>
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>Hoppy moments around the world</h2>
+              <p>
+                Our bunnies love posing for photos wherever they travel! From snowy mountain peaks
+                to sunny beaches and colorful city streets — each picture is a tiny memory of their
+                big adventures.
+              </p>
+            </div>
+          </div>
+          <div class="section-block">
+            <div cless="section-inner">
+              <figure>
+                <img src="images/Switzerland-01.jpg" width="250" alt="Bunnies in Switzerland" />
+                <figcaption>Bunnies in Switzerland</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Italy-01.jpg" width="250" alt="Bunnies in Italy" />
+                <figcaption>Bunnies in Italy</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Germany-02.jpg" width="250" alt="Bunnies in Germany" />
+                <figcaption>Bunnies in Germany</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="images/Czech Republic-01.jpg"
+                  width="250"
+                  alt="Bunnies in Czech Republic"
+                />
+                <figcaption>Bunnies in Czech Republic</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Denmark-01.jpg" width="250" alt="Bunnies in Denmark" />
+                <figcaption>Bunnies in Denmark</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Spain-01.jpg" width="250" alt="Bunnies in Spain" />
+                <figcaption>Bunnies in Spain</figcaption>
+              </figure>
+              <figure>
+                <img src="images/France-01.jpg" width="250" alt="Bunnies in France" />
+                <figcaption>Bunnies in France</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Greece-01.jpg" width="250" alt="Bunnies in Greece" />
+                <figcaption>Bunnies in Greece</figcaption>
+              </figure>
+              <figure>
+                <img src="images/Netherlands-01.jpg" width="250" alt="Bunnies in Netherlands" />
+                <figcaption>Bunnies in Netherlands</figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer id="Contacts">
-      <!-- todo: Subscription form-->
-      <div>
-        <h2>Curious about where our bunnies hop next?</h2>
-        <p>Sign up for our newsletter!</p>
-      </div>
-      <h2>Get in Touch</h2>
-      <ul>
-        <li><strong>Email:</strong> verbytska.de@gmail.com</li>
-        <li>
-          <strong>LinkedIn:</strong>
-          <a href="https://www.linkedin.com/in/yana-verbytska/" target="_blank">Yana Verbytska</a>
-        </li>
-        <p>If you want to support the bunnies, you can treat them with carrots here.</p>
-        <a href="https://buymeacoffee.com/verbytska" target="_blank"
-          ><strong>Buy me a carrot</strong></a
-        >
-      </ul>
+      <section>
+        <!-- <div> -->
+        <!-- todo: Subscription form-->
+        <!-- <h2>Curious about where our bunnies hop next?</h2>
+          <p>Sign up for our newsletter!</p>
+        </div> -->
+        <div class="section-block">
+          <div class="section-inner">
+            <h2>Get in Touch</h2>
+            <ul>
+              <li><strong>Email:</strong> verbytska.de@gmail.com</li>
+              <li>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/yana-verbytska/" target="_blank"
+                  >Yana Verbytska</a
+                >
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/ya-verbytska" target="_blank">Yana Verbytska</a>
+              </li>
+            </ul>
+            <p>
+              If you want to support the bunnies, you can treat them with carrots here.
+              <br />You can also connect with me on LinkedIn or leave a review on GitHub. The
+              bunnies and I will be super grateful for your support and kindness!
+            </p>
+            <a class="button" href="https://buymeacoffee.com/verbytska" target="_blank"
+              >Buy me a carrot</a
+            >
+          </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
