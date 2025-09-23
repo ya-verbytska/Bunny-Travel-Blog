@@ -10,15 +10,15 @@ h2 {
   margin: 10px auto;
 }
 
-p {
+p,
+li {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   text-align: left;
 }
 
 a,
-figcaption,
-li {
+figcaption {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -205,6 +205,53 @@ figcaption {
 
 .button:hover {
   background-color: #69c0b0;
+}
+
+.hi-switzerland {
+  width: 70%;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+.hi-switzerland-inner {
+  display: inline-block;
+  width: 40%;
+  margin: auto;
+}
+
+.hi-switzerland-photo {
+  display: inline-block;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.photo {
+  display: inline-block;
+  /* margin: 20px; */
+  width: 100%;
+}
+
+.section-inner-photos figure {
+  display: inline-block;
+  width: 48%;
+  margin: 20px auto 10px auto;
+  text-align: center;
+}
+
+.food-switzerland {
+  width: 100%;
+  margin: auto;
+}
+.food-switzerland-inner {
+  width: 48%;
+  display: inline-block;
+
+  vertical-align: top;
+}
+.fondue-foto {
+  display: inline-block;
+  width: 50%;
+
+  text-align: center;
 }
 
 /* .navigation ul {

@@ -2,167 +2,262 @@
 <html>
   <head>
     <title>Switzerland</title>
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="./index.html#AboutMe">About me</a></li>
-          <li><a href="./index.html#Countries">Countries</a></li>
-          <li><a href="./index.html#Gallery">Gallery</a></li>
-          <li><a href="./index.html#Contacts">Contacts</a></li>
-        </ul>
+      <nav class="navigation">
+        <div class="navigation-inner">
+          <ul>
+            <li><a href="index.html#AboutMe">About me</a></li>
+            <li><a href="index.html#Countries">Countries</a></li>
+            <li><a href="index.html#Gallery">Gallery</a></li>
+            <li><a href="index.html#Contacts">Contacts</a></li>
+          </ul>
+        </div>
       </nav>
-      <h1>Hello, Switzerland!</h1>
     </header>
-    <img src="images/Banner-02.png" alt="Banner with bunnies in Switzerland" />
+
     <main>
       <article>
-        <div>
-          <h2>Our adventures in Switzerland</h2>
-          <p>
-            Hallo! We are <strong>Hansli & Heidi</strong> the adventurous bunnies who love to hop
-            around the world. We have already visited Switzerland twice, because our mother (the
-            author of this blog) has two big loves in her heart — St. Bernard dogs and Swiss
-            chocolate. That’s why she took us on her dream travel, and of course we happily hopped
-            along!
-          </p>
+        <div class="hi-switzerland">
+          <div class="hi-switzerland-inner">
+            <h2>Hi! <br />We are Hansli & Heidi!</h2>
+            <p>
+              We love the Alps, tasty cheese, and long walks — and we are always ready for new
+              adventures!
+            </p>
+            <p>
+              We have already visited Switzerland twice, because our mother (the author of this
+              blog) has two big loves in her heart — St. Bernard dogs and Swiss chocolate. That’s
+              why she took us on her dream travel, and of course we happily hopped along!
+            </p>
+          </div>
+          <div class="hi-switzerland-photo">
+            <img src="images/Switzerland-02.png" alt="Bunnies in Switzerland" width="350" />
+          </div>
+        </div>
+        <div class="section-background">
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>Barryland in Martigny</h2>
+              <p>
+                In
+                <a href="https://www.myswitzerland.com/en/destinations/martigny/" target="_blank"
+                  >Martigny</a
+                >
+                we met the most famous Swiss dogs — the gentle giants called St. Bernards. They told
+                us about their brave history in the snowy Alps, where they once saved travelers from
+                avalanches and storms.
+              </p>
+              <p>
+                We even visited the
+                <a href="https://www.barryland.ch/en/" target="_blank">Barryland Museum</a>, where
+                we met the dogs in real life. Imagine: fluffy, giant friends with kind eyes, wagging
+                tails, and warm hearts — we were completely in love!
+              </p>
+
+              <div class="section-inner-photos">
+                <figure>
+                  <img
+                    class="photo"
+                    src="images/Barryland.png"
+                    width="450"
+                    alt="Barryland theme park"
+                  />
+                  <figcaption>
+                    The St. Bernard dogs - treasures of <br />
+                    Swiss heritage
+                  </figcaption>
+                </figure>
+                <figure>
+                  <img
+                    class="photo"
+                    src="images/StBernards.png"
+                    width="450"
+                    alt="St. Bernard dogs in Barryland"
+                  />
+                  <figcaption>
+                    Barryland, a unique theme park dedicated<br />
+                    to the St. Bernard
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
         <div>
-          <h2>Barryland in Martigny</h2>
-          <p>
-            In
-            <a href="https://www.myswitzerland.com/en/destinations/martigny/" target="_blank"
-              >Martigny</a
-            >
-            we met the most famous Swiss dogs — the gentle giants called St. Bernards. They told us
-            about their brave history in the snowy Alps, where they once saved travelers from
-            avalanches and storms. We even visited the
-            <a href="https://www.barryland.ch/en/" target="_blank">Barryland Museum</a>, where we
-            met the dogs in real life. Imagine: fluffy, giant friends with kind eyes, wagging tails,
-            and warm hearts — we were completely in love!
-          </p>
-          <figure>
-            <img
-              src="images/Barryland.jpg"
-              width="500"
-              alt="Barryland theme park dedicated to the St. Bernard"
-            />
-            <figcaption>Barryland theme park dedicated to the St. Bernard</figcaption>
-          </figure>
-          <figure>
-            <img src="images/St Bernard-01.jpg" width="500" alt="St. Bernard dogs in Barryland" />
-            <figcaption>St. Bernard dogs in Barryland</figcaption>
-          </figure>
-        </div>
-        <div>
-          <h2>The most famous foods from Switzerland</h2>
-          <p>
-            After meeting the St. Bernards, we had to taste Switzerland’s other treasure… yes,
-            chocolate! Sweet, creamy, and so delicious that our whiskers were covered in cocoa dust.
-            No wonder our mother couldn’t resist bringing us here again and again.
-          </p>
-          <p>
-            But Switzerland is not only about chocolate — there are so many tasty dishes to try!
-            Here are the most famous of them:
-          </p>
-          <ul>
-            <li>
-              <strong>Fondue</strong> – Melted cheese served in a pot, where you dip bread pieces
-              using long forks. A cozy dish, perfect for sharing.
-            </li>
-            <br />
-            <li>
-              <strong>Raclette</strong> – Melted cheese scraped over boiled potatoes, pickles, and
-              sometimes cured meats.
-            </li>
-            <br />
-            <li>
-              <strong>Rösti</strong> – A crispy potato dish, similar to hash browns, originally from
-              the German-speaking part of Switzerland.
-            </li>
-          </ul>
-          <aside><strong>Bunnies’ Pick:</strong> Fondue</aside>
-          <br />
-          <strong>Fondue</strong> — a big pot of melted cheese where we dip bread with our little
-          paws. For us, it’s the cheesiest adventure in Switzerland!
-          <video src="video/1699341_Cheese_Fondue_Fondue_3840x2160.mp4" controls width="100%">
-            Video not supported
-          </video>
+          <div class="section-block">
+            <div class="section-inner">
+              <div>
+                <h2>The most famous foods from Switzerland</h2>
+                <p>
+                  After meeting the St. Bernards, we had to taste Switzerland’s other treasure… yes,
+                  chocolate! Sweet, creamy, and so delicious that our whiskers were covered in cocoa
+                  dust. No wonder our mother couldn’t resist bringing us here again and again.
+                </p>
+                <p>
+                  But Switzerland is not only about chocolate — there are so many tasty dishes to
+                  try!
+                </p>
+                <div class="food-switzerland">
+                  <div class="food-switzerland-inner">
+                    <p>Here are the most famous of them:</p>
+                    <ul>
+                      <li>
+                        <strong>Fondue</strong> – Melted cheese served in a pot, where you dip bread
+                        pieces using long forks. A cozy dish, perfect for sharing.
+                      </li>
+                      <br />
+                      <li>
+                        <strong>Raclette</strong> – Melted cheese scraped over boiled potatoes,
+                        pickles, and sometimes cured meats.
+                      </li>
+                      <br />
+                      <li>
+                        <strong>Rösti</strong> – A crispy potato dish, similar to hash browns,
+                        originally from the German-speaking part of Switzerland.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="fondue-foto">
+                    <img src="images/Fondue.png" alt="Fondue" width="350" />
+                  </div>
+                  <p><strong>Bunnies’ Pick:</strong> Fondue</p>
+
+                  <p>
+                    We dipped soft bread cubes into the warm, gooey cheese and couldn’t stop
+                    munching. We even got our whiskers covered in fondue — it was messy but so
+                    delicious! Switzerland, you really know how to make two hungry bunnies super
+                    happy!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- todo: Recept of Fondue link-->
         </div>
-        <div>
-          <h2>Interesting facts about Switzerland</h2>
-          <p>
-            Switzerland, with its majestic mountains, delicious chocolate, and charming furry
-            friends, has become one of our favorite destinations in the world! Its warm hospitality,
-            stunning nature, and tasty cuisine make it truly unique. We have also gathered some
-            interesting facts about Switzerland:
-          </p>
-          <ol>
-            <li>
-              <strong>Four languages in one country</strong> – Switzerland has four official
-              languages: German, French, Italian, and Romansh. Depending on where you travel, street
-              signs, food, and even greetings can change!
-            </li>
-            <br />
-            <li>
-              <strong>Home of chocolate</strong> – The Swiss eat more chocolate per person than any
-              other country in the world. On average, each person eats about 10 kg of chocolate a
-              year.
-            </li>
-            <br />
-            <li>
-              <strong>The land of mountains</strong> - The Alps cover about
-              <strong><em>60% of Switzerland’s land area.</em></strong> No wonder Switzerland is
-              famous for skiing, hiking, and breathtaking mountain views.
-            </li>
-            <br />
-            <li>
-              <strong>No capital city?</strong> – Technically, Switzerland doesn’t have an official
-              capital. Bern is considered the “federal city,” but it’s not written in the
-              constitution as the capital.
-            </li>
-            <br />
-            <li>
-              <strong>Where the Red Cross was born</strong> – The famous humanitarian organization,
-              the International Committee of the Red Cross, was founded in Geneva in 1863.
-            </li>
-          </ol>
+        <div class="section-background">
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>Interesting facts about Switzerland</h2>
+              <p>
+                Switzerland, with its majestic mountains, delicious chocolate, and charming furry
+                friends, has become one of our favorite destinations in the world! Its warm
+                hospitality, stunning nature, and tasty cuisine make it truly unique. We have also
+                gathered some interesting facts about Switzerland:
+              </p>
+              <ol>
+                <li>
+                  <strong>Four languages in one country</strong> – Switzerland has four official
+                  languages: German, French, Italian, and Romansh. Depending on where you travel,
+                  street signs, food, and even greetings can change!
+                </li>
+                <br />
+                <li>
+                  <strong>Home of chocolate</strong> – The Swiss eat more chocolate per person than
+                  any other country in the world. On average, each person eats about 10 kg of
+                  chocolate a year.
+                </li>
+                <br />
+                <li>
+                  <strong>The land of mountains</strong> - The Alps cover about
+                  <strong><em>60% of Switzerland’s land area.</em></strong> No wonder Switzerland is
+                  famous for skiing, hiking, and breathtaking mountain views.
+                </li>
+                <br />
+                <li>
+                  <strong>No capital city?</strong> – Technically, Switzerland doesn’t have an
+                  official capital. Bern is considered the “federal city,” but it’s not written in
+                  the constitution as the capital.
+                </li>
+                <br />
+                <li>
+                  <strong>Where the Red Cross was born</strong> – The famous humanitarian
+                  organization, the International Committee of the Red Cross, was founded in Geneva
+                  in 1863.
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
-        <div>
-          <h2>Memories That Stay</h2>
-          <p>
-            As we returned home, we couldn’t stop thinking about our Swiss adventure. What we
-            remembered most were the smiles of the locals, their kindness, hugs with Saint Bernards,
-            the taste of local cheese and bread, and the magical mountains all around. Switzerland
-            is truly a place that stays in your heart and makes you want to come back again and
-            again.
-          </p>
+        <div class="section-block">
+          <div class="section-inner">
+            <h2>Memories that stay</h2>
+            <p>
+              As we returned home, we couldn’t stop thinking about our Swiss adventure. What we
+              remembered most were the smiles of the locals, their kindness, hugs with Saint
+              Bernards, the taste of local cheese and bread, and the magical mountains all around.
+            </p>
+            <p>
+              Switzerland is truly a place that stays in your heart and makes you want to come back
+              again and again.
+            </p>
+            <div class="section-inner-photos">
+              <figure>
+                <img
+                  class="photo"
+                  src="images/Mountains.png"
+                  width="450"
+                  alt="Mountains of Switzerland"
+                />
+                <figcaption>Mountains of Switzerland</figcaption>
+              </figure>
+              <figure>
+                <img
+                  class="photo"
+                  src="images/Mom_and_dogs.png"
+                  width="450"
+                  alt="Our Mom with the Gentle Giants"
+                />
+                <figcaption>Our Mom with the Gentle Giants</figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </article>
 
       <footer>
         <!-- todo: Subscription form-->
-        <div>
+        <!-- <div>
           <h2>Curious about where our bunnies hop next?</h2>
           <p>Sign up for our newsletter!</p>
-        </div>
+        </div> -->
         <div>
-          <h2>Get in Touch</h2>
-          <ul>
-            <li><strong>Email:</strong> verbytska.de@gmail.com</li>
-            <li>
-              <strong>LinkedIn:</strong>
-              <a href="https://www.linkedin.com/in/yana-verbytska/" target="_blank"
-                >Yana Verbytska</a
+          <div class="section-block">
+            <div class="section-inner">
+              <h2>Get in Touch</h2>
+              <ul>
+                <li><strong>Email:</strong> verbytska.de@gmail.com</li>
+                <li>
+                  <strong>LinkedIn:</strong>
+                  <a href="https://www.linkedin.com/in/yana-verbytska/" target="_blank"
+                    >Yana Verbytska</a
+                  >
+                </li>
+                <li>
+                  <strong>GitHub:</strong>
+                  <a href="https://github.com/ya-verbytska" target="_blank">Yana Verbytska</a>
+                </li>
+              </ul>
+              <p>
+                If you want to support the bunnies, you can treat them with carrots here.
+                <br />You can also connect with me on LinkedIn or leave a review on GitHub. The
+                bunnies and I will be super grateful for your support and kindness!
+              </p>
+              <a class="button" href="https://buymeacoffee.com/verbytska" target="_blank"
+                >Buy me a carrot</a
               >
-            </li>
-            <p>If you want to support the bunnies, you can treat them with carrots here.</p>
-            <a href="https://buymeacoffee.com/verbytska" target="_blank"
-              ><strong>Buy me a carrot</strong></a
-            >
-          </ul>
+            </div>
+          </div>
         </div>
       </footer>
     </main>
