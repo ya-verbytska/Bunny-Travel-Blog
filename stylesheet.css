@@ -2,54 +2,72 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  cursor: zoom-in;
+}
+
 h2 {
   font-family: "Satisfy";
   color: #e4664d;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
   margin: 10px auto;
 }
 
 p,
 li {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: left;
 }
 
-a,
-figcaption {
-  font-family: "Open Sans", sans-serif;
-}
-
 .navigation {
-  background-color: #ffffff;
-  padding-bottom: 20px;
+  background-color: #69c0b0;
+  /* padding-bottom: 1.2rem; */
   width: 100%;
   top: 0;
 }
-.navigation .navigation-inner {
-  background-color: #69c0b0;
-}
-.navigation .navigation-inner:hover {
+
+.navigation:hover {
   background-color: #e4664d;
+}
+
+.logo {
+  display: inline-block;
+  width: 28%;
+}
+.logo img {
+  width: 280px;
+  padding: 1.2rem;
+  cursor: auto;
+}
+.navigation .navigation-inner {
+  display: inline-block;
+  width: 70%;
+  text-align: right;
 }
 
 .navigation ul {
   margin: 0 auto;
   text-align: center;
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom;
 }
 
 .navigation li {
   display: inline-block;
-  width: 300px;
-  padding: 20px;
+  width: 19%;
+  padding: 1.2rem;
   text-align: center;
 }
 
 .navigation a {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.3rem;
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
@@ -60,15 +78,16 @@ figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 508px;
+  height: 508px;
+  margin: 2rem 0;
 }
 
 #banner .content h1 {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 5.5rem;
   text-align: center;
-  width: 460px;
-  padding-top: 60px;
+  width: 28rem;
+  padding-top: 3.75rem;
   font-family: "Satisfy";
   margin: 0 auto;
 }
@@ -77,12 +96,12 @@ figcaption {
   background-color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 23px;
-  width: 250px;
+  font-size: 1.5rem;
+  width: 15rem;
   text-align: center;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto 0 auto;
+  border-radius: 20px;
+  padding: 1.2rem;
+  margin: 1.2rem auto 0 auto;
 }
 
 .button-banner:has(a:hover) {
@@ -101,7 +120,7 @@ figcaption {
 
 .about-me {
   width: 70%;
-  margin: 40px auto 20px auto;
+  margin: 2.4rem auto 1.2rem auto;
   text-align: center;
 }
 
@@ -109,18 +128,20 @@ figcaption {
   display: inline-block;
   width: 50%;
   margin: auto;
+  vertical-align: middle;
 }
 
 .about-me-photo {
   display: inline-block;
   width: 40%;
-  margin: 10px auto;
+  margin: 0.6rem auto;
+  vertical-align: middle;
 }
 
 .section-background {
   background-color: #f9f9f9;
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 1.2rem 0;
+  padding: 1.2rem 0;
 }
 
 .section-block {
@@ -134,7 +155,7 @@ figcaption {
 }
 
 .countries-block {
-  margin: 30px auto 0 auto;
+  margin: 1.9rem auto 0 auto;
   width: 100%;
   text-align: center;
 }
@@ -142,34 +163,34 @@ figcaption {
   display: inline-block;
   width: 30%;
   background-color: #f9f9f9;
-  margin: 10px;
+  margin: 0.9rem;
 }
 
 .country-card img {
   display: block;
   width: 100%;
-  margin: 20px auto;
+  margin: 1.2rem auto;
 }
 
 .country-card p {
   width: 80%;
-  margin: 10px auto 20px auto;
+  margin: 0.9rem auto 1.2rem auto;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .country-card a {
   display: block;
-  padding: 10px;
-  margin: 10px auto 30px auto;
+  padding: 0.7rem;
+  margin: 0.9rem auto 1.9rem auto;
   text-align: center;
-  width: 200px;
+  width: 12rem;
   text-decoration: none;
 
   background-color: #69c0b0;
   color: #ffffff;
   border: solid 1px;
-  font-size: 20px;
+  font-size: 1.2rem;
   border-radius: 10px;
 }
 
@@ -185,21 +206,21 @@ figure {
 }
 
 figcaption {
-  padding: 15px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
 .button {
   display: block;
-  padding: 10px;
-  margin: 10px auto 30px auto;
+  padding: 0.8rem;
+  margin: 0.8rem auto 1.9rem auto;
   text-align: center;
-  width: 250px;
+  width: 15rem;
   text-decoration: none;
   background-color: #e4664d;
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
   border-radius: 10px;
 }
 
@@ -209,31 +230,32 @@ figcaption {
 
 .hi-switzerland {
   width: 70%;
-  margin: 40px auto 20px auto;
+  margin: 2.4rem auto 1.2rem auto;
   text-align: center;
 }
 .hi-switzerland-inner {
   display: inline-block;
   width: 40%;
   margin: auto;
+  vertical-align: middle;
 }
 
 .hi-switzerland-photo {
   display: inline-block;
   width: 50%;
-  margin: 10px auto;
+  margin: 0.8rem auto;
+  vertical-align: middle;
 }
 
 .photo {
   display: inline-block;
-  /* margin: 20px; */
   width: 100%;
 }
 
 .section-inner-photos figure {
   display: inline-block;
   width: 48%;
-  margin: 20px auto 10px auto;
+  margin: 1.2rem auto 0.8rem auto;
   text-align: center;
 }
 
