@@ -29,6 +29,7 @@ li {
   width: 100%;
   top: 0;
   position: fixed;
+  height: 5.8rem;
 }
 
 .logo {
@@ -79,11 +80,11 @@ li {
 
 #banner {
   background-image: url("images/Banner.png");
-  /* background-position: 0% 20%; */
   background-size: cover;
   width: 100%;
   height: 508px;
-  margin: 2rem 0;
+  margin: 5.8rem 0;
+  text-align: center;
 }
 
 #banner .content h1 {
@@ -93,33 +94,33 @@ li {
   width: 28rem;
   padding-top: 3.75rem;
   font-family: "Satisfy";
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .button-banner {
-  background-color: #ffffff;
+  background-color: #e4664d;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 15rem;
   text-align: center;
-  border-radius: 20px;
-  padding: 1.2rem;
-  margin: 1.2rem auto 0 auto;
+
+  padding: 1rem;
+  margin: 1.5rem auto 0 auto;
 }
 
 .button-banner:has(a:hover) {
-  background-color: #e4664d;
+  background-color: #ffffff;
 }
 
 .button-banner a {
   text-decoration: none;
-  color: #e4664d;
+  color: #ffffff;
 }
 
 .button-banner a:hover {
-  color: #ffffff;
-  background-color: #e4664d;
+  color: #e4664d;
+  background-color: #ffffff;
 }
 
 .about-me {
@@ -195,7 +196,6 @@ li {
   color: #ffffff;
   border: solid 1px;
   font-size: 1.2rem;
-  border-radius: 10px;
 }
 
 .country-card a:hover {
@@ -217,7 +217,7 @@ figcaption {
 
 .button {
   display: block;
-  padding: 0.8rem;
+  padding: 1rem;
   margin: 0.8rem auto 1.9rem auto;
   text-align: center;
   width: 15rem;
@@ -225,11 +225,16 @@ figcaption {
   background-color: #e4664d;
   color: white;
   font-size: 1.2rem;
-  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .button:hover {
   background-color: #69c0b0;
+}
+
+.footer ul {
+  list-style: none;
 }
 
 .hi-switzerland {
