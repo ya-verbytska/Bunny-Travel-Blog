@@ -6,10 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-img {
-  cursor: zoom-in;
-}
-
 h2 {
   font-family: "Satisfy";
   color: #e4664d;
@@ -30,39 +26,27 @@ li {
   top: 0;
   position: fixed;
   height: 5.8rem;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-  display: inline-block;
-  width: 24%;
-  padding-left: 1rem;
-}
-.logo img {
+  display: flex;
   width: 300px;
-  padding: 1.2rem;
-  cursor: auto;
-}
-.navigation .navigation-inner {
-  display: inline-block;
-  width: 75%;
-  text-align: right;
+  padding: 1rem;
 }
 
 .navigation ul {
   margin: 0 auto;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  vertical-align: bottom;
+  padding: 0;
+  display: flex;
+  width: 60%;
+  list-style: none;
+  justify-content: space-between;
 }
 
 .navigation li {
-  display: inline-block;
-  width: 19%;
   padding: 1rem;
-  text-align: center;
-  position: relative;
-  top: -19px;
 }
 
 .navigation a {
