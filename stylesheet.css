@@ -66,19 +66,12 @@ li {
   background-image: url("images/Banner.png");
   background-size: cover;
   width: 100%;
-<<<<<<< Updated upstream
   height: 400px;
   margin: 5.8rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-=======
-
-  height: 508px;
-  margin: 5.8rem 0 2rem 0;
-  text-align: center;
->>>>>>> Stashed changes
 }
 
 #banner h1 {
