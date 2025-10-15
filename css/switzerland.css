@@ -1,0 +1,47 @@
+.hi-switzerland {
+  width: 70%;
+  margin: 2.4rem auto 1.2rem auto;
+  text-align: center;
+}
+.hi-switzerland-inner {
+  display: inline-block;
+  width: 40%;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.hi-switzerland-photo {
+  display: inline-block;
+  width: 50%;
+  margin: 0.8rem auto;
+  vertical-align: middle;
+}
+
+.photo {
+  display: inline-block;
+  width: 100%;
+}
+
+.section-inner-photos figure {
+  display: inline-block;
+  width: 48%;
+  margin: 1.2rem auto 0.8rem auto;
+  text-align: center;
+}
+
+.food-switzerland {
+  width: 100%;
+  margin: auto;
+}
+.food-switzerland-inner {
+  width: 48%;
+  display: inline-block;
+
+  vertical-align: top;
+}
+.fondue-foto {
+  display: inline-block;
+  width: 50%;
+
+  text-align: center;
+}

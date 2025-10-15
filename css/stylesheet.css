@@ -1,0 +1,162 @@
+#banner {
+  background-image: url("../images/Banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+  width: 28rem;
+  font-family: "Satisfy";
+}
+
+.button-banner {
+  background-color: #e4664d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.button-banner:has(a:hover) {
+  background-color: #ffffff;
+}
+
+.button-banner a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-banner a:hover {
+  color: #e4664d;
+  background-color: #ffffff;
+}
+
+.about-me {
+  display: flex;
+  width: 900px;
+  margin: 2.4rem auto 1.2rem auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.read-more {
+  margin: 1rem;
+}
+
+.about-me a {
+  padding: 0.5rem;
+  text-decoration: none;
+  background-color: #69c0b0;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-background {
+  background-color: #f9f9f9;
+
+  padding: 1.2rem 0;
+}
+
+.section-block {
+  width: 70%;
+  margin: auto;
+}
+
+.section-inner {
+  width: 90%;
+  margin: auto;
+}
+
+.countries-block {
+  margin: 1.9rem auto 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.country-card {
+  display: inline-block;
+  width: 30%;
+  background-color: #f9f9f9;
+  margin: 0.9rem;
+}
+
+.country-card img {
+  display: block;
+  width: 100%;
+  margin: 1.2rem auto;
+}
+
+.country-card p {
+  width: 80%;
+  margin: 0.9rem auto 1.2rem auto;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.country-card a {
+  display: block;
+  padding: 0.7rem;
+  margin: 0.9rem auto 1.9rem auto;
+  text-align: center;
+  width: 12rem;
+  text-decoration: none;
+
+  background-color: #69c0b0;
+  color: #ffffff;
+  border: solid 1px;
+  font-size: 1.2rem;
+}
+
+.country-card a:hover {
+  background-color: #e4664d;
+}
+
+figure {
+  display: inline-block;
+  width: 33%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figcaption {
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.button {
+  display: block;
+  padding: 1rem;
+  margin: 0.8rem auto 1.9rem auto;
+  text-align: center;
+  width: 15rem;
+  text-decoration: none;
+  background-color: #e4664d;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+
+.button:hover {
+  background-color: #69c0b0;
+}
