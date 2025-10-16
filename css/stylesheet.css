@@ -44,7 +44,7 @@
 
 .about-me {
   display: flex;
-  width: 900px;
+
   margin: 2.4rem auto 1.2rem auto;
   align-items: center;
   justify-content: center;
@@ -56,6 +56,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .read-more {
   margin: 1rem;
 }
@@ -68,22 +69,6 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.section-background {
-  background-color: #f9f9f9;
-
-  padding: 1.2rem 0;
-}
-
-.section-block {
-  width: 70%;
-  margin: auto;
-}
-
-.section-inner {
-  width: 90%;
-  margin: auto;
 }
 
 .countries-block {
@@ -140,23 +125,4 @@ figcaption {
   padding: 1rem;
   font-size: 0.9rem;
   font-weight: bold;
-}
-
-.button {
-  display: block;
-  padding: 1rem;
-  margin: 0.8rem auto 1.9rem auto;
-  text-align: center;
-  width: 15rem;
-  text-decoration: none;
-  background-color: #e4664d;
-  color: white;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: none;
-}
-
-.button:hover {
-  background-color: #69c0b0;
 }

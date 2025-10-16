@@ -11,22 +11,29 @@ h2 {
   color: #e4664d;
   text-align: center;
   font-size: 2.5rem;
-  margin: 10px auto;
 }
 
 p,
 li,
-input,
 label {
   font-size: 1.2rem;
   text-align: left;
 }
 section {
-  margin: 3rem 0;
+  margin: 2rem 0;
+}
+
+.section-block {
+  width: 900px;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
+}
+
+.section-background {
+  background-color: #f9f9f9;
 }
 
 header {
@@ -78,37 +85,65 @@ header {
   background-color: #e4664d;
 }
 
-.footer ul {
-  list-style: none;
-}
-
 footer {
   background-color: #69c0b0;
+  color: white;
   width: 100%;
   bottom: 0;
-  display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
+}
+footer h2 {
+  color: white;
+  padding-top: 2rem;
+  margin: 0;
 }
 .footer-block {
   display: flex;
-  align-items: center;
-  margin: auto;
-  width: 1256px;
+  justify-content: space-between;
 }
 
-.footer-text {
-  width: 40%;
+.footer-block p,
+.footer-block label {
+  font-size: 1rem;
+}
+.footer-text,
+.sign-up {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
-footer h2 {
-  color: white;
+.icons {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin: 0 auto 1rem auto;
 }
 
-.footer li {
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #ffffff;
+form h3 {
+  font-family: "Satisfy";
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  margin: 0 1rem;
+  width: 250px;
+  font-size: 0.8rem;
+}
+.sign-up input[type="email"]:focus {
+  outline: 1.5px solid #51a193;
+}
+
+.sign-up button {
+  padding: 0.7rem;
   text-decoration: none;
+  background-color: #e4664d;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
 }
