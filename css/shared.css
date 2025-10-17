@@ -26,7 +26,8 @@ section {
   margin: 2rem 0;
 }
 
-.section-block {
+.section-block,
+.section-one-block {
   width: 900px;
   margin: 0 auto;
 }
@@ -37,6 +38,7 @@ ul {
 
 .section-background {
   background-color: #f9f9f9;
+  padding: 1rem 0;
 }
 
 header {

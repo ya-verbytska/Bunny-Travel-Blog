@@ -42,15 +42,13 @@
   background-color: #ffffff;
 }
 
-.about-me {
+.section-block {
   display: flex;
-
-  margin: 2.4rem auto 1.2rem auto;
   align-items: center;
   justify-content: center;
 }
 
-.about-me-inner {
+.section-inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +59,6 @@
   padding: 0.5rem;
   text-decoration: none;
   border: #69c0b0 2px solid;
-
   color: #69c0b0;
   font-size: 1rem;
   text-transform: uppercase;
