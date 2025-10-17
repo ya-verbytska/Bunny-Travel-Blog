@@ -87,12 +87,12 @@ header {
 
 footer {
   background-color: #69c0b0;
-  color: white;
+  color: #ffffff;
   width: 100%;
   bottom: 0;
 }
 footer h2 {
-  color: white;
+  color: #ffffff;
   padding-top: 2rem;
   margin: 0;
 }
@@ -119,6 +119,13 @@ footer h2 {
   margin: 0 auto 1rem auto;
 }
 
+.icons svg path {
+  fill: #c6f1e9;
+}
+.icons svg path:hover {
+  fill: #ffffff;
+}
+
 form h3 {
   font-family: "Satisfy";
   font-size: 1.8rem;
@@ -127,23 +134,29 @@ form h3 {
 
 .sign-up input[type="email"] {
   border: none;
-  border-radius: 5px;
   line-height: 1.5rem;
   margin: 0 1rem;
   width: 250px;
   font-size: 0.8rem;
 }
 .sign-up input[type="email"]:focus {
-  outline: 1.5px solid #51a193;
+  background-color: #c6f1e9;
+  outline: none;
 }
 
 .sign-up button {
   padding: 0.7rem;
   text-decoration: none;
   background-color: #e4664d;
-  color: white;
+  color: #ffffff;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
+  cursor: pointer;
+}
+
+.sign-up button:hover {
+  background-color: #ffffff;
+  color: #e4664d;
 }

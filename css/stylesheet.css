@@ -58,17 +58,20 @@
 }
 
 .read-more {
-  margin: 1rem;
-}
-
-.about-me a {
   padding: 0.5rem;
   text-decoration: none;
-  background-color: #69c0b0;
-  color: white;
+  border: #69c0b0 2px solid;
+
+  color: #69c0b0;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.read-more:hover {
+  border: none;
+  background-color: #69c0b0;
+  color: #ffffff;
 }
 
 .countries-block {
@@ -94,24 +97,6 @@
   margin: 0.9rem auto 1.2rem auto;
   text-align: center;
   font-size: 0.9rem;
-}
-
-.country-card a {
-  display: block;
-  padding: 0.7rem;
-  margin: 0.9rem auto 1.9rem auto;
-  text-align: center;
-  width: 12rem;
-  text-decoration: none;
-
-  background-color: #69c0b0;
-  color: #ffffff;
-  border: solid 1px;
-  font-size: 1.2rem;
-}
-
-.country-card a:hover {
-  background-color: #e4664d;
 }
 
 figure {
