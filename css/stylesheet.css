@@ -70,6 +70,7 @@
 
 .read-more:hover {
   border: none;
+  border: #69c0b0 2px solid;
   background-color: #69c0b0;
   color: #ffffff;
 }
