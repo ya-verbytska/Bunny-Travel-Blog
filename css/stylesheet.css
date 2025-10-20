@@ -109,3 +109,51 @@ figcaption {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+.preview-article {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 1rem;
+}
+.preview-article-block {
+  display: flex;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.preview-article-block p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.preview-article h3 {
+  font-size: 1rem;
+}
+
+.preview-article img {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+.preview-article .read-more {
+  padding: 0.3rem;
+  text-decoration: none;
+  border: #69c0b0 2px solid;
+  color: #69c0b0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+  right: 75px;
+}
+
+.preview-article .read-more:hover {
+  border: none;
+  border: #69c0b0 2px solid;
+  background-color: #69c0b0;
+  color: #ffffff;
+}
