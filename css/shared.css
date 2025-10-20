@@ -176,7 +176,7 @@ footer h2 {
 form h3 {
   font-family: "Satisfy";
   font-size: 1.8rem;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 .sign-up input[type="email"] {
