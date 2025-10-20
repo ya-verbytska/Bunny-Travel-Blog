@@ -12,6 +12,9 @@ h2 {
   text-align: center;
   font-size: 2.5rem;
 }
+html {
+  scroll-padding-top: 5.8rem;
+}
 
 p,
 li,
@@ -23,7 +26,8 @@ section {
   margin: 2rem 0;
 }
 
-.section-block {
+.section-block,
+.section-one-block {
   width: 900px;
   margin: 0 auto;
 }
@@ -34,6 +38,7 @@ ul {
 
 .section-background {
   background-color: #f9f9f9;
+  padding: 1rem 0;
 }
 
 header {
@@ -85,6 +90,48 @@ header {
   background-color: #e4664d;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown svg path {
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-color: #60afa1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5em;
+  margin: 0.5rem;
+}
+
+.carret {
+  display: inline-block;
+  color: #ffffff;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.dropdown-content a:hover {
+  color: #ffffff;
+}
+
 footer {
   background-color: #69c0b0;
   color: #ffffff;
@@ -122,14 +169,14 @@ footer h2 {
 .icons svg path {
   fill: #c6f1e9;
 }
-.icons svg path:hover {
+.icons svg:hover path {
   fill: #ffffff;
 }
 
 form h3 {
   font-family: "Satisfy";
   font-size: 1.8rem;
-  margin: 1rem auto;
+  margin: 0 auto;
 }
 
 .sign-up input[type="email"] {

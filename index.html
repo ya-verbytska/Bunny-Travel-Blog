@@ -22,8 +22,26 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
-            <li><a href="#Countries">Countries</a></li>
-            <li><a href="#">Food & Drink</a></li>
+
+            <div class="dropdown">
+              <li>
+                <a class="dropbth" href="#Countries">Countries </a>
+                <span class="carret"></span>
+              </li>
+              <div class="dropdown-content">
+                <div>
+                  <a href="Switzerland.html">Switzerland</a>
+                  <a href="">France</a>
+                  <a href="">Denmark</a>
+                </div>
+                <div>
+                  <a href="">Spain</a>
+                  <a href="">Italy</a>
+                  <a href="">Germany</a>
+                </div>
+              </div>
+            </div>
+            <li><a href="#">Blog</a></li>
             <li><a href="#Gallery">Gallery</a></li>
             <li><a href="#Contacts">Contacts</a></li>
           </ul>
@@ -39,8 +57,8 @@
     </div>
     <main>
       <section>
-        <div class="about-me section-block">
-          <div class="about-me-inner">
+        <div class="section-block">
+          <div class="section-inner">
             <div>
               <h2>Hi, I’m Yana!</h2>
               <p>
@@ -65,18 +83,21 @@
           </div>
         </div>
       </section>
+
       <section id="Countries" class="section-background">
-        <div>
-          <div class="section-block">
-            <div class="section-inner">
+        <div class="section-block">
+          <div>
+            <img src="images/Voyage.png" width="389" />
+          </div>
+          <div class="section-inner">
+            <div>
               <h2>Our favorite countries and adventures</h2>
               <p>
-                The bunnies and I have already visited more than
+                The bunnies and I have already visited
                 <strong>10 countries</strong>. Each trip is a new story filled with laughter,
                 curious discoveries, and, of course, delicious food.
               </p>
               <p>Every place leaves a special memory — and the bunnies love to collect them all!</p>
-
               <p>
                 Each country gave us new friends, fun stories, and tasty memories — from cheesy
                 fondue to sweet gelato. These are our favorite adventures, and we can’t wait to
@@ -84,80 +105,82 @@
               </p>
             </div>
           </div>
-          <div class="countries-block">
-            <div class="country-card">
-              <img src="images/Martigny.png" alt="Bunnies in Switzerland" width="300" />
-              <div>
-                <p>
-                  <strong>Grüezi! </strong>
-                  <br />
-                  <br />
-                  We hopped into the snowy Alps and met the gentle St. Bernard dogs at Barryland. We
-                  also tried our favorite Swiss treat — fondue!
-                </p>
-                <a class="read-more" href="./Switzerland.html">Read more</a>
-              </div>
-            </div>
-            <div class="country-card">
-              <img src="images/Paris.png" alt="Bunnies in Paris" width="300" />
-
+        </div>
+      </section>
+      <section>
+        <div class="countries-block">
+          <div class="country-card">
+            <img src="images/Martigny.png" alt="Bunnies in Switzerland" width="300" />
+            <div>
               <p>
-                <strong>Bonjour!</strong>
+                <strong>Grüezi! </strong>
                 <br />
-                <br />We explored romantic streets of Paris, tasted sweet crêpes, and even posed
-                near the Eiffel Tower like true French bunnies.
+                <br />
+                We hopped into the snowy Alps and met the gentle St. Bernard dogs at Barryland. We
+                also tried our favorite Swiss treat — fondue!
               </p>
-              <a class="read-more" href="">Read more</a>
-            </div>
-            <div class="country-card">
-              <img src="images/Copenhagen.png" alt="Bunnies in Copenhagen" width="300" />
-
-              <p>
-                <strong>Hej!</strong>
-                <br />
-                <br />
-                We hopped through colorful Nyhavn, met the Little Mermaid, and enjoyed the cozy
-                Danish “hygge” vibes — perfect for bunnies!
-              </p>
-              <a class="read-more" href="">Read more</a>
+              <a class="read-more" href="./Switzerland.html">Read more</a>
             </div>
           </div>
-          <div class="countries-block">
-            <div class="country-card">
-              <img src="images/Palma.png" alt="Bunnies in Palma" width="300" />
+          <div class="country-card">
+            <img src="images/Paris.png" alt="Bunnies in Paris" width="300" />
 
-              <p>
-                <strong>¡Hola!</strong>
-                <br />
-                <br />
-                Sunny days, sandy beaches, and yummy paella — Spain is our happy place for hopping
-                and tasting delicious food!
-              </p>
-              <a class="read-more" href="">Read more</a>
-            </div>
-            <div class="country-card">
-              <img src="images/Como.png" alt="Bunnies on Como Lace" width="300" />
+            <p>
+              <strong>Bonjour!</strong>
+              <br />
+              <br />We explored romantic streets of Paris, tasted sweet crêpes, and even posed near
+              the Eiffel Tower like true French bunnies.
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </div>
+          <div class="country-card">
+            <img src="images/Copenhagen.png" alt="Bunnies in Copenhagen" width="300" />
 
-              <p>
-                <strong>Ciao!</strong>
-                <br />
-                <br />
-                We hopped around stylish Milan, admired the stunning Duomo, and, of course, enjoyed
-                lots of pizza and creamy gelato!
-              </p>
-              <a class="read-more" href="">Read more</a>
-            </div>
-            <div class="country-card">
-              <img src="images/Berlin.png" alt="Bunnies IN Berlin" width="300" />
-              <p>
-                <strong>Hallo!</strong>
-                <br />
-                <br />
-                We hopped through Berlin, explored the Brandenburg Gate, and nibbled on a yummy
-                pretzel while enjoying the city’s lively vibes!
-              </p>
-              <a class="read-more" href="">Read more</a>
-            </div>
+            <p>
+              <strong>Hej!</strong>
+              <br />
+              <br />
+              We hopped through colorful Nyhavn, met the Little Mermaid, and enjoyed the cozy Danish
+              “hygge” vibes — perfect for bunnies!
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </div>
+        </div>
+        <div class="countries-block">
+          <div class="country-card">
+            <img src="images/Palma.png" alt="Bunnies in Palma" width="300" />
+
+            <p>
+              <strong>¡Hola!</strong>
+              <br />
+              <br />
+              Sunny days, sandy beaches, and yummy paella — Spain is our happy place for hopping and
+              tasting delicious food!
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </div>
+          <div class="country-card">
+            <img src="images/Como.png" alt="Bunnies on Como Lace" width="300" />
+
+            <p>
+              <strong>Ciao!</strong>
+              <br />
+              <br />
+              We hopped around stylish Milan, admired the stunning Duomo, and, of course, enjoyed
+              lots of pizza and creamy gelato!
+            </p>
+            <a class="read-more" href="">Read more</a>
+          </div>
+          <div class="country-card">
+            <img src="images/Berlin.png" alt="Bunnies IN Berlin" width="300" />
+            <p>
+              <strong>Hallo!</strong>
+              <br />
+              <br />
+              We hopped through Berlin, explored the Brandenburg Gate, and nibbled on a yummy
+              pretzel while enjoying the city’s lively vibes!
+            </p>
+            <a class="read-more" href="">Read more</a>
           </div>
         </div>
 
