@@ -90,6 +90,48 @@ header {
   background-color: #e4664d;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown svg path {
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-color: #60afa1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  font-size: 1rem;
+  display: block;
+  padding: 0.5em;
+  margin: 0.5rem;
+}
+
+.carret {
+  display: inline-block;
+  color: #ffffff;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 6px solid;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.dropdown-content a:hover {
+  color: #ffffff;
+}
+
 footer {
   background-color: #69c0b0;
   color: #ffffff;
