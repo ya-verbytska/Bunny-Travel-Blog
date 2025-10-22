@@ -94,9 +94,6 @@ header {
   position: relative;
 }
 
-.dropdown svg path {
-}
-
 .dropdown-content {
   position: absolute;
   display: none;
