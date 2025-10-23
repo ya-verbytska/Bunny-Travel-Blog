@@ -12,6 +12,13 @@ h2 {
   text-align: center;
   font-size: 2.5rem;
 }
+
+h3 {
+  display: flex;
+  margin: 2rem auto;
+  justify-content: center;
+}
+
 html {
   scroll-padding-top: 5.8rem;
 }
@@ -53,6 +60,11 @@ section {
 .section-background {
   background-color: #f9f9f9;
   padding: 1rem 0;
+}
+
+.section-last {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
 }
 
 header {
@@ -181,7 +193,7 @@ header {
 .preview-article {
   display: flex;
   flex-direction: column;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
   justify-content: center;
   align-items: center;
   width: 250px;
@@ -278,8 +290,4 @@ form h3 {
 .sign-up button:hover {
   background-color: #ffffff;
   color: #e4664d;
-}
-
-#Gallery {
-  margin-bottom: 0;
 }

@@ -71,6 +71,6 @@
   display: grid;
   grid-template: repeat(3, 3fr) / repeat(3, 3fr);
   gap: 2rem 2rem;
-  margin: auto;
+  margin: 2rem auto;
   justify-items: center;
 }
