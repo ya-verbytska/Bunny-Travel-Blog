@@ -14,9 +14,12 @@ h2 {
 }
 
 h3 {
-  display: flex;
-  margin: 2rem auto;
-  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 html {
@@ -38,12 +41,13 @@ section {
 }
 
 .section-one-block {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .section-block {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -220,7 +224,7 @@ footer {
   background-color: #69c0b0;
   color: #ffffff;
   width: 100%;
-  bottom: 0;
+  padding-bottom: 1rem;
 }
 footer h2 {
   color: #ffffff;
