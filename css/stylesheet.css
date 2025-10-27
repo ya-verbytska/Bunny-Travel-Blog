@@ -65,15 +65,11 @@
   font-size: 0.9rem;
 }
 
-.country-card .read-more {
-  font-size: 0.9rem;
-  display: block;
+.country-card .read-more-small {
   margin: 0 auto;
   width: 220px;
 }
-.country-card .read-more:hover {
-  text-decoration: underline #69c0b0 0.2rem;
-}
+
 /* Gallery */
 
 .gallery-photos {

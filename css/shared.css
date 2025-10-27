@@ -169,22 +169,18 @@ header {
 .read-more:hover {
   text-decoration: underline #69c0b0 0.3rem;
 }
-.read-more-small {
-  padding: 0.3rem;
-  text-decoration: none;
-  border: #69c0b0 2px solid;
-  color: #69c0b0;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 1rem;
-}
 
+.read-more-small {
+  font-size: 0.9rem;
+  display: block;
+  margin: 0.5rem auto;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  width: 200px;
+}
 .read-more-small:hover {
-  border: none;
-  border: #69c0b0 2px solid;
-  background-color: #69c0b0;
-  color: #ffffff;
+  text-decoration: underline #69c0b0 0.2rem;
 }
 
 .preview-article {
