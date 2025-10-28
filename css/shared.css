@@ -207,6 +207,15 @@ header {
   height: 100px;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.25s, opacity 0.5s;
+}
+
+.preview-article .over {
+  overflow: hidden;
+}
+
+.preview-article img:hover {
+  transform: scale(1.1) translateZ(0);
 }
 
 footer {
