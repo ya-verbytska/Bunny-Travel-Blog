@@ -13,7 +13,7 @@ h2 {
   font-size: 2.5rem;
 }
 
-h3 {
+article h3 {
   text-align: center;
   margin: 2rem;
 }
@@ -224,12 +224,68 @@ header {
   transform: scale(1.1) translateZ(0);
 }
 
+.travel-rating {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  width: 950px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.rating {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 0 #e7e7e7;
+}
+
+.rating p {
+  font-size: 0.9rem;
+  width: 70%;
+  min-height: 50px;
+  margin: 1rem auto;
+}
+
+.interesting-facts {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  width: 800px;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.fact {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 0 #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.fact-title {
+  display: flex;
+  margin: 2rem auto 0 auto;
+  width: 80%;
+  gap: 1rem;
+  min-height: 80px;
+}
+
+.fact p {
+  width: 80%;
+  margin: 1rem auto 2rem auto;
+}
+
 footer {
   background-color: #69c0b0;
   color: #ffffff;
   width: 100%;
   padding-bottom: 1rem;
 }
+
 footer h2 {
   color: #ffffff;
   padding-top: 2rem;
