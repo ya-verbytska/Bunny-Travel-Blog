@@ -32,8 +32,10 @@ label {
   font-size: 1.2rem;
   text-align: left;
 }
+
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 section {
@@ -58,6 +60,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
+}
+
+.align-left {
+  align-items: flex-start;
 }
 
 .section-background {
