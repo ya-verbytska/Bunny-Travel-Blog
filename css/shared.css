@@ -23,7 +23,7 @@ article h3 {
 }
 
 html {
-  scroll-padding-top: 5.8rem;
+  scroll-padding-top: 7.8rem;
 }
 
 p,
@@ -123,7 +123,8 @@ header {
 }
 
 .navigation a:hover,
-.navigation li:hover {
+.navigation li:hover,
+.navigation .dropdown:hover {
   background-color: #e4664d;
 }
 
@@ -135,8 +136,8 @@ header {
   position: absolute;
   display: none;
   z-index: 1;
-  background-color: #69c0b0;
-  /* box-shadow: 1px 1px 2px 2px #000000; */
+  background-color: #55a899;
+  width: 151px;
 }
 
 .dropdown:hover .dropdown-content {
