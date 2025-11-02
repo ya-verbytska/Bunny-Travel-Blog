@@ -83,12 +83,12 @@
 
 /* Padding for Menu Navigation issue */
 #Countries {
-  padding-top: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .countries-block {
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
   gap: 2rem 2rem;
   margin: 2rem auto;
   width: 950px;
