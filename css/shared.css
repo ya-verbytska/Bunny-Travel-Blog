@@ -93,6 +93,14 @@ section {
   .section-block img {
     width: 80%;
   }
+  .section-background {
+    width: 100%;
+  }
+  .preview-block-article {
+    margin: 0 auto;
+    width: 80%;
+  }
+
   .section-block {
     flex-wrap: wrap;
   }
