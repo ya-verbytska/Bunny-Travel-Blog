@@ -410,6 +410,11 @@ form h3 {
 }
 
 @media only screen and (max-width: 640px) {
+  .footer-block {
+    min-width: 300px;
+    width: 80%;
+  }
+
   .footer-text,
   .sign-up {
     flex-wrap: wrap;
