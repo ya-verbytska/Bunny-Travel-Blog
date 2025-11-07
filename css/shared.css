@@ -84,7 +84,6 @@ section {
 
 @media only screen and (max-width: 480px) {
   section {
-    width: 100%;
     margin: 1rem auto;
   }
 
@@ -92,9 +91,7 @@ section {
   .section-one-block {
     width: 80%;
   }
-  .section-background {
-    width: 100%;
-  }
+
   .preview-block-article {
     margin: 0 auto;
     width: 80%;
@@ -132,7 +129,6 @@ section {
   .mobile-only {
     display: block;
     margin: 0 auto;
-    width: 100%;
   }
 }
 
@@ -392,7 +388,6 @@ footer h2 {
   margin: 0;
 }
 .footer-block {
-  display: flex;
   justify-content: space-between;
 }
 
