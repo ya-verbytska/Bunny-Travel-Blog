@@ -315,15 +315,17 @@ header {
   .travel-rating {
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     width: 80%;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .rating {
     width: 100%;
-    min-width: 175px;
-    max-width: 250px;
     justify-content: center;
+  }
+
+  .rating h3 {
+    font-size: 0.9rem;
   }
 
   .rating img {
