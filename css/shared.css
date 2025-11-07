@@ -89,8 +89,7 @@ section {
   }
 
   .section-block,
-  .section-one-block,
-  .section-block img {
+  .section-one-block {
     width: 80%;
   }
   .section-background {
