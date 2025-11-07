@@ -78,13 +78,7 @@ section {
     margin: 1rem auto;
   }
 
-  .flex-block,
   .content-block {
-    width: 80%;
-  }
-
-  .preview-block-article {
-    margin: 0 auto;
     width: 80%;
   }
 
@@ -258,9 +252,6 @@ header {
 
 .preview-article img {
   width: 200px;
-  height: 100px;
-  object-fit: cover;
-  object-position: center;
   transition: transform 0.25s, opacity 0.5s;
 }
 
@@ -274,8 +265,11 @@ header {
 
 @media only screen and (max-width: 480px) {
   .preview-article {
-    min-width: 225px;
-    max-width: 250px;
+    width: 85%;
+  }
+
+  .preview-block-article h2 {
+    width: 72%;
   }
 }
 
