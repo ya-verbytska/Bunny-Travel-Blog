@@ -84,6 +84,11 @@ section {
     margin: 1rem auto;
   }
 
+  .section-block,
+  .section-one-block,
+  .section-block img {
+    width: 80%;
+  }
   .section-block {
     flex-wrap: wrap;
   }
