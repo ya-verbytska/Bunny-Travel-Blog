@@ -15,7 +15,7 @@
   background-color: #f9f9f9;
   overflow: hidden;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
   .blog-grid {
     grid-template-columns: 1fr;
     width: 80%;
