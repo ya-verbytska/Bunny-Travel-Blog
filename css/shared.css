@@ -78,6 +78,10 @@ section {
   padding-bottom: 2rem;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media only screen and (max-width: 640px) {
   section {
     width: 100%;
@@ -93,7 +97,32 @@ section {
     flex-wrap: wrap;
   }
 
-  .section-block img {
+  .section-block img,
+  .mobile-only img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .section-inner {
+    padding-bottom: 0;
+  }
+
+  h2 {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  article h3 {
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto;
+  }
+
+  .media-hidden {
+    display: none;
+  }
+
+  .mobile-only {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -293,6 +322,10 @@ header {
     width: 65%;
     min-width: 175px;
     max-width: 250px;
+  }
+
+  .rating img {
+    margin: 0 auto 1rem auto;
   }
 }
 
