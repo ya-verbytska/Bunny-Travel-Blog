@@ -415,6 +415,9 @@ form h3 {
     flex-wrap: wrap;
     width: 100%;
   }
+  form {
+    margin: 0 auto;
+  }
 
   form h3 {
     text-align: center;
