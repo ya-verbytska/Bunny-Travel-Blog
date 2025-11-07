@@ -362,6 +362,10 @@ header {
 @media only screen and (max-width: 640px) {
   .interesting-facts {
     grid-template: repeat(6, 1fr) / minmax(250px, 300px);
+    gap: 1rem;
+  }
+  .fact {
+    min-height: fit-content;
   }
 }
 
