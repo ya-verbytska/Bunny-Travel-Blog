@@ -423,8 +423,8 @@ footer h2 {
 }
 
 form h3 {
-  font-family: "Satisfy";
-  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
   margin: 0 auto;
 }
 
@@ -461,20 +461,31 @@ form h3 {
   .footer-block {
     min-width: 300px;
     width: 80%;
+    flex-wrap: wrap-reverse;
   }
 
-  .footer-text,
   .sign-up {
     flex-wrap: wrap;
     width: 100%;
   }
+
+  .footer-text {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
   form {
+    margin: 0 auto;
+  }
+
+  footer h2 {
     margin: 0 auto;
   }
 
   form h3 {
     text-align: center;
-    font-size: 2.5rem;
+
     padding-top: 1rem;
   }
 
