@@ -220,7 +220,7 @@ header {
 .read-more-small {
   font-size: 0.9rem;
   display: block;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
   font-weight: bold;
   color: #000000;
   text-decoration: none;
@@ -245,8 +245,8 @@ header {
 .preview-article h3 {
   font-size: 1rem;
   text-align: center;
-  margin: 1rem;
-  min-height: 2rem;
+  margin: 1rem auto;
+  width: 85%;
   display: block;
 }
 
